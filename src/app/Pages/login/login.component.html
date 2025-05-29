@@ -1,21 +1,26 @@
 <div class="container">
-    <div class="text">
-        <h2>Bienvenido a TechShop</h2>
-        <p>¡Si aun no te has registrado puedes hacerlo ahora!</p>
-        <button>Registrate</button>
+    <div class="text formato">
+        <h2 class="m-b">Bienvenido a TechShop</h2>
+        <p class="m-b">¡Si aun no te has registrado puedes hacerlo ahora!</p>
+        <button class="m-b">Registrate</button>
     </div>
 
-    <div class="form">
+    <div class="form formato">
         <h1>Inicia seccion</h1>
         <form action="">
             <mat-form-field class="example-full-width">
                     <mat-label>Email</mat-label>
                     <input type="email" matInput placeholder="Ex. pat@example.com">
             </mat-form-field>
-            <div class="ing">
-                <label for="">Clave:</label>
-                <input type="password" placeholder="Ingresa tu clave">
-            </div>
+            <br>
+            <mat-form-field class="example-full-width">
+                    <mat-label>Clave</mat-label>
+                    <input type="password" matInput placeholder="Ex. jose2345">
+            </mat-form-field>
+            <br>
+            <button class="m-b">Login</button>
+            <br>
+            <a href="#">¿Olvidaste tu contraseña?</a>
         </form>
     </div>
 </div>

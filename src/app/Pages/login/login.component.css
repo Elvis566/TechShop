@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    height: 350px;
+    margin: 20vh auto;
+    background-color: #3C4F5C;
+
+}
+
+.formato{
+    width: 50%;
+    height: 100%;
+    align-content: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.text{
+    background-color: #f0a856;
+
+}
+form{
+    display: block;
+}
+.example-full-width{
+    width: 60%;
+
+}
+
+.m-b{
+    margin-bottom: 40px;
+}
